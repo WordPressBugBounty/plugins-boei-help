@@ -1,12 +1,12 @@
 <?php
 /*
  * Plugin Name: Boei
- * Version: 1.6.0
+ * Version: 1.6.1
  * Plugin URI: https://www.boei.help/?utm_source=wordpress&utm_medium=wp_plugins
- * Description: Boei is a widget that allows you to engage with your website visitors in their favourite messaging app (e.g., Telegram, SMS, WeChat). Convert more using Boei by talking to visitors on their favourite channels.
+ * Description: AI Chatbot, WhatsApp, Signal & Contact Forms in one powerful lead generation widget. Increase conversions by 30% with 24/7 AI support and seamless messaging.
  * Author: Boei
  * Author URI: https://www.boei.help/?utm_source=wordpress&utm_medium=wp_plugins
- * Tested up to: 6.6.2
+ * Tested up to: 6.7.2
  * Requires PHP: 7.0
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
