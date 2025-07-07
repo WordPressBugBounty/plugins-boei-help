@@ -1,12 +1,13 @@
 <?php
 /*
- * Plugin Name: Boei
- * Version: 1.6.1
- * Plugin URI: https://www.boei.help/?utm_source=wordpress&utm_medium=wp_plugins
- * Description: AI Chatbot, WhatsApp, Signal & Contact Forms in one powerful lead generation widget. Increase conversions by 30% with 24/7 AI support and seamless messaging.
+ * Plugin Name: AI-Powered Lead Generation & Customer Support Widget – Boei
+ * Version: 1.7.0
+ * Plugin URI: https://boei.help/chat/wordpress?utm_source=wordpress&utm_medium=wp_plugins
+ * Description: Stop losing leads! Turn your WordPress site into a 24/7 lead generation machine with AI agents, omnichannel messaging, and automated customer support.
  * Author: Boei
  * Author URI: https://www.boei.help/?utm_source=wordpress&utm_medium=wp_plugins
- * Tested up to: 6.7.2
+ * Tested up to: 6.8
+ * Requires at least: 2.0
  * Requires PHP: 7.0
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -64,7 +65,7 @@ function boei_admin_action_links($links)
             'boei-help-settings',
             get_admin_url() . 'admin.php'
         )) . '">' . __('Setup & Settings', 'textdomain') . '</a>',
-        '<a href="' . esc_url(boei_url_homepage()) . '">' . __('Support', 'textdomain') . '</a>',
+        '<a href="' . esc_url(boei_url_homepage()) . '">' . __('Support', 'boei-help') . '</a>',
     ), $links);
 
     return $links;
@@ -79,11 +80,19 @@ add_action('plugin_action_links_' . plugin_basename(__FILE__), 'boei_admin_actio
 function boei_register_admin()
 {
     // Add menu option
-    add_menu_page(__('Boei', 'boei'), __('Boei', 'boei'), 'manage_options', 'boei-help-settings', 'boei_settings', 'dashicons-format-chat');
+    add_menu_page(__('Boei', 'boei-help'), __('Boei', 'boei-help'), 'manage_options', 'boei-help-settings', 'boei_settings', 'dashicons-format-chat');
 
-    // Register the settings
-    register_setting('boei_key', 'boei_key_option');
+    // Register the settings with sanitize callback
+    register_setting(
+        'boei_key',
+        'boei_key_option',
+        array(
+            'type'              => 'string',
+            'sanitize_callback' => 'sanitize_text_field',
+        )
+    );
 }
+
 
 add_action('admin_menu', 'boei_register_admin');
 
@@ -110,45 +119,38 @@ function boei_settings()
     $safeRoadmapURL = esc_url('https://feedback.boei.help');
     $Boei = "<a href=\"" . $safeHomepageURL . "\" target=\"_blank\">Boei</a>";
 
-    // Get current user and domain for SSO-like registration
     $current_user = wp_get_current_user();
     $boei_register_email = $current_user->user_email;
-
     $urlparts = parse_url(home_url());
     $boei_register_domain = $urlparts['host'];
-
     $safeRegisterURL = esc_url('https://app.boei.help/register?utm_source=wordpress&utm_medium=wp_plugins&email=' . urlencode($boei_register_email) . '&domain=' . urlencode($boei_register_domain));
 
-    echo <<<EOTEXT
+    echo '<div class="wrap">';
+    echo '<div id="icon-my-id" class="icon32">';
+    echo '<img src="' . $safeLogoURL . '" style="max-width: 32px; margin-top: 20px;" alt="logo">';
+    echo '</div>';
+    echo '<h2>Boei</h2>';
 
-    <div class="wrap">
-        <div id="icon-my-id" class="icon32">
-            <img src="{$safeLogoURL}" style="max-width: 32px; margin-top: 20px;" alt="logo">
-        </div>
-        <h2>Boei</h2>
+    echo '<div style="display: flex; flex-direction: row; flex-wrap: wrap; width: 100%;">';
+    echo '<div style="padding-right: 60px; display: flex; flex-direction: column; flex-basis: 100%; flex: 2; min-width: 300px; font-size: 14px;">';
 
-        <div style="display: flex; flex-direction: row; flex-wrap: wrap; width: 100%;">
-            <div style="padding-right: 60px; display: flex; flex-direction: column; flex-basis: 100%; flex: 2; min-width: 300px; font-size: 14px;">
-                <div class="postbox">
-                    <div class="postbox-header">
-                        <h4 style="padding-left: 12px;">Welcome to Boei 👋</h4>
-                    </div>
-                    <div class="inside">
-                        Don't drop customers trying to reach you. With {$Boei}, you offer their favorite contact channels in a pretty widget.
-                    </div>
-                </div>
+    echo '<div class="postbox">';
+    echo '<div class="postbox-header">';
+    echo '<h4 style="padding-left: 12px;">Welcome to Boei 👋</h4>';
+    echo '</div>';
+    echo '<div class="inside">';
+    echo 'Don\'t drop customers trying to reach you. With ' . $Boei . ', you offer their favorite contact channels in a pretty widget.';
+    echo '</div>';
+    echo '</div>';
 
-                <div class="postbox">
-                    <div class="postbox-header">
-                        <h4 style="padding-left: 12px;">Installation</h4>
-                    </div>
-                    <div class="inside">
-                        <p>1. Start here 👇</p>
-                        <a href="{$safeRegisterURL}" class="button button-secondary" target="_blank" style="background-color: #713eec; color: #ffffff; border: 0;">Create free widget</a>
-
-                        <p style="margin-top:40px;">2. Enter your widget key to connect your widget with WordPress. <a href="{$safeInstallationURL}">Where can I find this key?</a><br><br><strong>Widget Key</strong></p>
-
-EOTEXT;
+    echo '<div class="postbox">';
+    echo '<div class="postbox-header">';
+    echo '<h4 style="padding-left: 12px;">Installation</h4>';
+    echo '</div>';
+    echo '<div class="inside">';
+    echo '<p>1. Start here 👇</p>';
+    echo '<a href="' . $safeRegisterURL . '" class="button button-secondary" target="_blank" style="background-color: #713eec; color: #ffffff; border: 0;">Create free widget</a>';
+    echo '<p style="margin-top:40px;">2. Enter your widget key to connect your widget with WordPress. <a href="' . $safeInstallationURL . '">Where can I find this key?</a><br><br><strong>Widget Key</strong></p>';
 
     echo '<form action="options.php" method="POST">';
     settings_fields('boei_key');
@@ -157,41 +159,37 @@ EOTEXT;
     submit_button('Save key');
     echo '</form>';
 
-    echo <<<EOTEXT
+    echo '<p>You make changes in the Boei app. This ensures you have the latest version and features.</p>';
+    echo '<a href="' . $safeManageURL . '" class="button button-secondary" target="_blank">Manage existing widgets</a>';
+    echo '</div>';
+    echo '</div>';
 
-                        <p>You make changes in the Boei app. This ensures you have the latest version and features.</p>
-                        <a href="{$safeManageURL}" class="button button-secondary" target="_blank">Manage existing widgets</a>
-                    </div>
-                </div>
+    echo '<div class="postbox">';
+    echo '<div class="inside">';
+    echo 'Thanks for choosing Boei! Do you like us? Please support us with a <a href="https://wordpress.org/support/plugin/boei-help/reviews/#new-post" target="_blank">⭐️⭐️⭐️⭐️⭐️ review</a>.';
+    echo '</div>';
+    echo '</div>';
 
-                <div class="postbox">
-                    <div class="inside">
-                        Thanks for choosing Boei! Do you like us? Please support us with a <a href="https://wordpress.org/support/plugin/boei-help/reviews/#new-post" target="_blank">⭐️⭐️⭐️⭐️⭐️ review</a>.
-                    </div>
-                </div>
+    echo '</div>';
 
-            </div>
-            <div style="padding-right: 30px; display: flex; flex-direction: column; flex-basis: 100%; flex: 1; min-width: 300px; font-size: 10px;">
+    echo '<div style="padding-right: 30px; display: flex; flex-direction: column; flex-basis: 100%; flex: 1; min-width: 300px; font-size: 10px;">';
+    echo '<div class="video-container" style="position:relative; padding-bottom:56.25%; padding-top:30px; height:0; overflow:hidden;">';
+    echo '<iframe style="position:absolute; top:0; left:0; width:100%; height:100%;" width="560" height="315" src="https://www.youtube.com/embed/BmEz7_3HFs4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+    echo '</div>';
 
-                <div class="video-container" style="position:relative; padding-bottom:56.25%; padding-top:30px; height:0; overflow:hidden;">
-                    <iframe style="position:absolute; top:0; left:0; width:100%; height:100%;" width="560" height="315" src="https://www.youtube.com/embed/BmEz7_3HFs4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
+    echo '<br />';
+    echo '<h3 style="margin-bottom: 0;">Questions or support</h3>';
+    echo '<p>Go to the <a href="' . $safeHomepageURL . '" target="_blank">Boei site</a> and click our Boei widget 💪</p>';
 
-                <br />
+    echo '<br />';
+    echo '<h3 style="margin-bottom: 0;">Roadmap & feedback</h3>';
+    echo '<p>You can follow Boei developments on our <a href="' . $safeRoadmapURL . '" target="_blank">public roadmap</a>.</p>';
 
-                <h3 style="margin-bottom: 0;">Questions or support</h3>
-                <p>Go to the <a href="{$safeHomepageURL}" target="_blank">Boei site</a> and click our Boei widget 💪</p>
-
-                <br />
-
-                <h3 style="margin-bottom: 0;">Roadmap & feedback</h3>
-                <p>You can follow Boei developments on our <a href="{$safeRoadmapURL}" target="_blank">public roadmap</a>.</p>
-
-            </div>
-        </div>
-    </div>
-EOTEXT;
+    echo '</div>';
+    echo '</div>';
+    echo '</div>';
 }
+
 
 /**
  * Return app management URL
@@ -214,5 +212,6 @@ function boei_url_homepage()
  */
 function boei_url_logo()
 {
-    return 'https://www.boei.help/static/logo.svg';
+    return plugins_url('logo.svg', __FILE__);
 }
+
