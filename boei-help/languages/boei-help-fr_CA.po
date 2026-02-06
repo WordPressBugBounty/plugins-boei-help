@@ -1,0 +1,110 @@
+# French translation for Boei
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: fr_FR\n"
+
+msgid "Unauthorized"
+msgstr "Non autorisé"
+
+msgid "Please enter a widget key"
+msgstr "Veuillez entrer une clé de widget"
+
+msgid "Widget key is valid!"
+msgstr "Clé de widget valide !"
+
+msgid "Invalid widget key. Please check and try again."
+msgstr "Clé invalide. Veuillez vérifier."
+
+msgid "Setup & Settings"
+msgstr "Configuration"
+
+msgid "Support"
+msgstr "Support"
+
+msgid "Boei"
+msgstr "Boei"
+
+msgid "Testing..."
+msgstr "Test..."
+
+msgid "Test"
+msgstr "Tester"
+
+msgid "Connection error. Please try again."
+msgstr "Erreur de connexion."
+
+msgid "Are you sure you want to deactivate your widget?"
+msgstr "Désactiver le widget ?"
+
+msgid "Connected!"
+msgstr "Connecté !"
+
+msgid "Your Boei widget is active on this site."
+msgstr "Votre widget Boei est actif."
+
+msgid "Inbox"
+msgstr "Boîte de réception"
+
+msgid "All messages"
+msgstr "Tous les messages"
+
+msgid "CRM"
+msgstr "CRM"
+
+msgid "Manage leads"
+msgstr "Gérer les prospects"
+
+msgid "Analytics"
+msgstr "Analytique"
+
+msgid "Track performance"
+msgstr "Suivre les performances"
+
+msgid "Widget"
+msgstr "Widget"
+
+msgid "Customize"
+msgstr "Personnaliser"
+
+msgid "Enjoying Boei? Help us grow!"
+msgstr "Vous aimez Boei ? Aidez-nous !"
+
+msgid "Your review helps other WordPress users discover Boei."
+msgstr "Votre avis aide les autres utilisateurs."
+
+msgid "Leave a review"
+msgstr "Laisser un avis"
+
+msgid "Widget Key"
+msgstr "Clé du widget"
+
+msgid "Edit"
+msgstr "Modifier"
+
+msgid "Deactivate"
+msgstr "Désactiver"
+
+msgid "Update"
+msgstr "Mettre à jour"
+
+msgid "Cancel"
+msgstr "Annuler"
+
+msgid "You're all set!"
+msgstr "Tout est prêt !"
+
+msgid "Your Boei widget is now live on your website. Start capturing leads!"
+msgstr "Votre widget est maintenant en ligne !"
+
+msgid "Connect your widget to start capturing leads."
+msgstr "Connectez votre widget pour capturer des prospects."
+
+msgid "Go to settings"
+msgstr "Aller aux paramètres"
+
+msgid "Help & Support"
+msgstr "Aide & Support"
+
+msgid "Roadmap"
+msgstr "Feuille de route"

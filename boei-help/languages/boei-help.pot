@@ -1,0 +1,213 @@
+# Copyright (C) 2025 Boei
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Boei – Chat Widget & AI Chatbot with 50+ Channels 1.8.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/boei-help\n"
+"POT-Creation-Date: 2025-01-05T00:00:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2025-01-05T00:00:00+00:00\n"
+"Last-Translator: Boei <support@boei.help>\n"
+"Language-Team: Boei <support@boei.help>\n"
+
+#: boei-help.php
+msgid "Unauthorized"
+msgstr ""
+
+#: boei-help.php
+msgid "Please enter a widget key"
+msgstr ""
+
+#: boei-help.php
+msgid "Widget key is valid!"
+msgstr ""
+
+#: boei-help.php
+msgid "Invalid widget key. Please check and try again."
+msgstr ""
+
+#: boei-help.php
+msgid "The widget key could not be verified. Please check that it is correct."
+msgstr ""
+
+#: boei-help.php
+msgid "Setup & Settings"
+msgstr ""
+
+#: boei-help.php
+msgid "Support"
+msgstr ""
+
+#: boei-help.php
+msgid "Boei"
+msgstr ""
+
+#: boei-help.php
+msgid "Testing..."
+msgstr ""
+
+#: boei-help.php
+msgid "Test"
+msgstr ""
+
+#: boei-help.php
+msgid "Connection error. Please try again."
+msgstr ""
+
+#: boei-help.php
+msgid "Are you sure you want to deactivate your widget?"
+msgstr ""
+
+#: boei-help.php
+msgid "Connected!"
+msgstr ""
+
+#: boei-help.php
+msgid "Your Boei widget is active on this site."
+msgstr ""
+
+#: boei-help.php
+msgid "Inbox"
+msgstr ""
+
+#: boei-help.php
+msgid "All messages"
+msgstr ""
+
+#: boei-help.php
+msgid "CRM"
+msgstr ""
+
+#: boei-help.php
+msgid "Manage leads"
+msgstr ""
+
+#: boei-help.php
+msgid "Analytics"
+msgstr ""
+
+#: boei-help.php
+msgid "Track performance"
+msgstr ""
+
+#: boei-help.php
+msgid "Widget"
+msgstr ""
+
+#: boei-help.php
+msgid "Customize"
+msgstr ""
+
+#: boei-help.php
+msgid "Enjoying Boei? Help us grow!"
+msgstr ""
+
+#: boei-help.php
+msgid "Your review helps other WordPress users discover Boei."
+msgstr ""
+
+#: boei-help.php
+msgid "Leave a review"
+msgstr ""
+
+#: boei-help.php
+msgid "Widget Key"
+msgstr ""
+
+#: boei-help.php
+msgid "Edit"
+msgstr ""
+
+#: boei-help.php
+msgid "Deactivate"
+msgstr ""
+
+#: boei-help.php
+msgid "Update"
+msgstr ""
+
+#: boei-help.php
+msgid "Cancel"
+msgstr ""
+
+#: boei-help.php
+msgid "Capture Every Lead. Reply Instantly. Close More Deals."
+msgstr ""
+
+#: boei-help.php
+msgid "Turn your WordPress site into a lead generation machine with AI-powered chat and 50+ contact channels."
+msgstr ""
+
+#: boei-help.php
+msgid "AI chatbot answers questions 24/7"
+msgstr ""
+
+#: boei-help.php
+msgid "50+ contact channels in one widget"
+msgstr ""
+
+#: boei-help.php
+msgid "Single inbox for all messages"
+msgstr ""
+
+#: boei-help.php
+msgid "Built-in CRM to track leads"
+msgstr ""
+
+#: boei-help.php
+msgid "Trusted by 10,000+ businesses worldwide"
+msgstr ""
+
+#: boei-help.php
+msgid "Get started in 2 minutes"
+msgstr ""
+
+#: boei-help.php
+msgid "Create your free Boei account"
+msgstr ""
+
+#: boei-help.php
+msgid "Set up your widget and AI chatbot in minutes"
+msgstr ""
+
+#: boei-help.php
+msgid "Get started free"
+msgstr ""
+
+#: boei-help.php
+msgid "Connect your widget"
+msgstr ""
+
+#: boei-help.php
+msgid "Paste your widget key from the %s"
+msgstr ""
+
+#: boei-help.php
+msgid "Boei dashboard"
+msgstr ""
+
+#: boei-help.php
+msgid "e.g. 21424816-afa8-4f70-85f0-85ddfbcbcec6"
+msgstr ""
+
+#: boei-help.php
+msgid "Connect widget"
+msgstr ""
+
+#: boei-help.php
+msgid "Help & Support"
+msgstr ""
+
+#: boei-help.php
+msgid "Roadmap"
+msgstr ""
+
+#: boei-help.php
+msgid "Your widget key could not be verified. Please check your settings."
+msgstr ""
+
+#: boei-help.php
+msgid "Go to settings"
+msgstr ""

@@ -1,0 +1,17 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\nLanguage: hu_HU\n"
+
+msgid "Connected!"
+msgstr "Csatlakoztatva!"
+
+msgid "You're all set!"
+msgstr "Minden kész!"
+
+msgid "Your Boei widget is now live on your website. Start capturing leads!"
+msgstr "A widget él!"
+
+msgid "Connect your widget to start capturing leads."
+msgstr "Csatlakoztassa widgetjét."
+
+msgid "Go to settings"
+msgstr "Beállítások"

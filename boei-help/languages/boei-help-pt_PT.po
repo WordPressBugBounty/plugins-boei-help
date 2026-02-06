@@ -1,0 +1,17 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\nLanguage: pt_PT\n"
+
+msgid "Connected!"
+msgstr "Ligado!"
+
+msgid "You're all set!"
+msgstr "Tudo pronto!"
+
+msgid "Your Boei widget is now live on your website. Start capturing leads!"
+msgstr "O seu widget está ativo!"
+
+msgid "Connect your widget to start capturing leads."
+msgstr "Conecte o seu widget."
+
+msgid "Go to settings"
+msgstr "Ir para definições"

@@ -1,0 +1,17 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\nLanguage: zh_HK\n"
+
+msgid "Connected!"
+msgstr "已連接！"
+
+msgid "You're all set!"
+msgstr "設置完成！"
+
+msgid "Your Boei widget is now live on your website. Start capturing leads!"
+msgstr "您的小工具已啟用！"
+
+msgid "Connect your widget to start capturing leads."
+msgstr "連接您的小工具。"
+
+msgid "Go to settings"
+msgstr "前往設置"

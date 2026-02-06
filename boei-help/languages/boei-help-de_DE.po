@@ -1,0 +1,175 @@
+# German translation for Boei
+# Copyright (C) 2025 Boei
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Boei – Chat Widget & AI Chatbot with 50+ Channels 1.8.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/boei-help\n"
+"POT-Creation-Date: 2025-01-05T00:00:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2025-01-05T00:00:00+00:00\n"
+"Last-Translator: Boei <support@boei.help>\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Unauthorized"
+msgstr "Nicht autorisiert"
+
+msgid "Please enter a widget key"
+msgstr "Bitte Widget-Schlüssel eingeben"
+
+msgid "Widget key is valid!"
+msgstr "Widget-Schlüssel ist gültig!"
+
+msgid "Invalid widget key. Please check and try again."
+msgstr "Ungültiger Widget-Schlüssel. Bitte prüfen und erneut versuchen."
+
+msgid "The widget key could not be verified. Please check that it is correct."
+msgstr "Der Widget-Schlüssel konnte nicht verifiziert werden."
+
+msgid "Setup & Settings"
+msgstr "Einrichtung & Einstellungen"
+
+msgid "Support"
+msgstr "Support"
+
+msgid "Boei"
+msgstr "Boei"
+
+msgid "Testing..."
+msgstr "Teste..."
+
+msgid "Test"
+msgstr "Test"
+
+msgid "Connection error. Please try again."
+msgstr "Verbindungsfehler. Bitte erneut versuchen."
+
+msgid "Are you sure you want to deactivate your widget?"
+msgstr "Widget wirklich deaktivieren?"
+
+msgid "Connected!"
+msgstr "Verbunden!"
+
+msgid "Your Boei widget is active on this site."
+msgstr "Ihr Boei-Widget ist aktiv."
+
+msgid "Inbox"
+msgstr "Inbox"
+
+msgid "All messages"
+msgstr "Alle Nachrichten"
+
+msgid "CRM"
+msgstr "CRM"
+
+msgid "Manage leads"
+msgstr "Leads verwalten"
+
+msgid "Analytics"
+msgstr "Analytik"
+
+msgid "Track performance"
+msgstr "Leistung verfolgen"
+
+msgid "Widget"
+msgstr "Widget"
+
+msgid "Customize"
+msgstr "Anpassen"
+
+msgid "Enjoying Boei? Help us grow!"
+msgstr "Gefällt Ihnen Boei? Helfen Sie uns!"
+
+msgid "Your review helps other WordPress users discover Boei."
+msgstr "Ihre Bewertung hilft anderen."
+
+msgid "Leave a review"
+msgstr "Bewertung abgeben"
+
+msgid "Widget Key"
+msgstr "Widget-sleutel"
+
+msgid "Edit"
+msgstr "Bearbeiten"
+
+msgid "Deactivate"
+msgstr "Deaktivieren"
+
+msgid "Update"
+msgstr "Aktualisieren"
+
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgid "Capture Every Lead. Reply Instantly. Close More Deals."
+msgstr "Jeden Lead erfassen. Sofort antworten. Mehr Abschlüsse."
+
+msgid "Turn your WordPress site into a lead generation machine with AI-powered chat and 50+ contact channels."
+msgstr "Maak van je WordPress-site een leadgeneratie-machine met AI-chat en 50+ contactkanalen."
+
+msgid "AI chatbot answers questions 24/7"
+msgstr "AI-chatbot beantwoordt vragen 24/7"
+
+msgid "50+ contact channels in one widget"
+msgstr "50+ contactkanalen in één widget"
+
+msgid "Single inbox for all messages"
+msgstr "Eén inbox voor alle berichten"
+
+msgid "Built-in CRM to track leads"
+msgstr "Ingebouwde CRM om leads te volgen"
+
+msgid "Trusted by 10,000+ businesses worldwide"
+msgstr "Vertrouwd door 10.000+ bedrijven wereldwijd"
+
+msgid "Get started in 2 minutes"
+msgstr "Start in 2 minuten"
+
+msgid "Create your free Boei account"
+msgstr "Maak je gratis Boei-account"
+
+msgid "Set up your widget and AI chatbot in minutes"
+msgstr "Stel je widget en AI-chatbot in binnen enkele minuten"
+
+msgid "Get started free"
+msgstr "Start gratis"
+
+msgid "Connect your widget"
+msgstr "Verbind je widget"
+
+msgid "Paste your widget key from the %s"
+msgstr "Plak je widget-sleutel van het %s"
+
+msgid "Boei dashboard"
+msgstr "Boei-dashboard"
+
+msgid "e.g. 21424816-afa8-4f70-85f0-85ddfbcbcec6"
+msgstr "bijv. 21424816-afa8-4f70-85f0-85ddfbcbcec6"
+
+msgid "Connect widget"
+msgstr "Widget verbinden"
+
+msgid "Help & Support"
+msgstr "Help & Ondersteuning"
+
+msgid "Roadmap"
+msgstr "Roadmap"
+
+msgid "Your widget key could not be verified. Please check your settings."
+msgstr "Je widget-sleutel kon niet worden geverifieerd. Controleer je instellingen."
+
+msgid "Go to settings"
+msgstr "Ga naar instellingen"
+
+msgid "Connect your widget to start capturing leads."
+msgstr "Verbinden Sie Ihr Widget."
+
+msgid "You're all set!"
+msgstr "Alles bereit!"
+
+msgid "Your Boei widget is now live on your website. Start capturing leads!"
+msgstr "Ihr Boei-Widget ist jetzt live!"
