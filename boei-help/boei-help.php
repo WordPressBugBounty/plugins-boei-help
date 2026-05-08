@@ -1,8 +1,8 @@
 <?php
 /*
- * Plugin Name: Boei – Chat Widget & AI Chatbot with 50+ Channels
- * Version: 1.8.0
- * Plugin URI: https://boei.help/chat/wordpress?utm_source=wordpress&utm_medium=wp_plugins
+ * Plugin Name: Boei – AI Chatbot, Live Chat & 50+ Channels for WordPress
+ * Version: 1.9.0
+ * Plugin URI: https://boei.help/ai-chatbot/wordpress/?utm_source=wordpress&utm_medium=wp_plugins
  * Description: Capture every lead. Reply instantly. Close more deals. AI chatbot, 50+ contact channels, single inbox, and lead tracking—all in one plugin.
  * Author: Boei
  * Author URI: https://www.boei.help/?utm_source=wordpress&utm_medium=wp_plugins
