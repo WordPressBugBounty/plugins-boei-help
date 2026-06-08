@@ -2,24 +2,26 @@
 
 Contributors: boeihelp
 Donate link: https://www.boei.help/?utm_source=wordpress&utm_medium=pluginpage
-Tags: ai chatbot, chatbot, live chat, ai agent, lead generation
+Tags: ai chatbot, chatbot, live chat, wordpress chatbot, gdpr chatbot
 Requires at least: 5.0
-Tested up to: 6.9.4
-Stable tag: 1.9.0
+Tested up to: 7.0
+Stable tag: 1.9.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-AI chatbot for WordPress that captures leads and books customers. Live chat, 50+ channels, shared inbox, and CRM, all in one plugin.
+European AI chatbot for WordPress. Replies in 95+ languages, captures leads, hands off to your team. GDPR chatbot, shared inbox included.
 
 ## Description
 
 [Website](https://boei.help/ai-chatbot/wordpress/?utm_source=wordpress&utm_medium=pluginpage) | [Showcase](https://boei.help/showcase/?utm_source=wordpress&utm_medium=pluginpage) | [Docs](https://boei.help/help?utm_source=wordpress&utm_medium=pluginpage) | [Support](https://boei.help/contact/?utm_source=wordpress&utm_medium=pluginpage)
 
-> **More than a chatbot.** Boei is one plugin that combines an **AI agent** + **AI actions** + **live chat** + **50+ contact channels** + **shared inbox** + **CRM**. The complete customer journey, from first message to closed deal, without bolting together five tools.
+> **The AI receptionist for your WordPress site.** Boei replies to visitor questions in 95+ languages, captures leads while you sleep, and hands the conversation to your team only when it matters. One plugin, one shared inbox.
 
-## Most Chatbots Answer Questions. Boei Captures Leads and Closes Deals.
+## The WordPress chatbot built for small business
 
-Boei is an [AI chatbot for WordPress](https://boei.help/ai-chatbot/wordpress/?utm_source=wordpress&utm_medium=pluginpage) that goes beyond answering questions. It books appointments, qualifies prospects, captures contact details, and **takes real actions** like updating your CRM, sending emails, or syncing data via webhooks, all mid-conversation. Resolves up to 80% of inquiries automatically and hands off to live chat for the rest. Pair it with [50+ contact channels](https://boei.help/channels/?utm_source=wordpress&utm_medium=pluginpage), a [shared inbox](https://boei.help/features/inbox/?utm_source=wordpress&utm_medium=pluginpage), and a built-in [CRM](https://boei.help/crm/?utm_source=wordpress&utm_medium=pluginpage), so you handle the entire customer journey from first message to closed deal in one place.
+Boei is a [WordPress chatbot](https://boei.help/ai-chatbot/wordpress/?utm_source=wordpress&utm_medium=pluginpage) for small businesses and agencies. It answers customer questions on your site, asks the right follow-up questions to qualify leads, books meetings, and steps aside the moment a real person is needed. Set up in 5 minutes, no prompt engineering, no API keys.
+
+Pair it with a [shared inbox](https://boei.help/features/inbox/?utm_source=wordpress&utm_medium=pluginpage), email, SMS, and [50+ other contact channels](https://boei.help/channels/?utm_source=wordpress&utm_medium=pluginpage), plus a built-in [CRM](https://boei.help/crm/?utm_source=wordpress&utm_medium=pluginpage), so every conversation lives in one place. EU-hosted, GDPR-compliant, no cookies, no visitor tracking. Boei is the WordPress chatbot that reduces support tickets and qualifies leads on autopilot.
 
 Trusted by 17,000+ businesses across 60+ countries. 4.9 stars, 159+ verified reviews.
 
@@ -33,7 +35,7 @@ Trusted by 17,000+ businesses across 60+ countries. 4.9 stars, 159+ verified rev
 - 📊 **CRM with Deal Pipeline** to convert chats into trackable leads with drag-and-drop tracking
 - ❓ **FAQ Widget** so visitors find answers before they ask
 - ⚡ **Lightweight Script** (300x smaller than typical chat widgets) with no impact on Core Web Vitals
-- 🇪🇺 **European-built and GDPR compliant** with no cookies and no visitor tracking
+- 🇪🇺 **GDPR chatbot, European-built** with no cookies and no visitor tracking. A privacy-first European chatbot for EU teams
 
 ## How the AI Chatbot Works
 
@@ -52,12 +54,12 @@ When the AI is unsure, when a visitor asks for a person, or when a high-value le
 
 ### 🤖 AI Agent: Your 24/7 Salesperson
 
-- **Self-trains on your site**: crawls WordPress pages, blog posts, and WooCommerce products, no manual setup
+- **Self-trains on your site**: a WordPress chatbot that crawls pages and blog posts, and on stores it doubles as a WooCommerce chatbot trained on your product catalog. No manual setup
 - **Lead qualification**: collect names, emails, phone numbers, and custom qualifying information
 - **Books appointments**: integrates with Calendly, Cal.com, Google Calendar, and more
 - **No hallucinations**: answers only from your content, cites sources, links back to original pages
 - **Multilingual**: 95+ languages with automatic detection
-- **Latest models**: powered by OpenAI (GPT) and Anthropic (Claude)
+- **Latest models**: choose a GPT chatbot, Claude chatbot, Gemini chatbot, or Mistral chatbot experience, no API keys required
 - **Resolution rates up to 80%** when trained on the right content
 
 ### 💬 Live Chat & 50+ Channels
@@ -122,8 +124,8 @@ Boei's script is 300x smaller than typical chat widgets. Zero impact on Core Web
 **No Hallucinations**
 Boei answers only from your content with verification links. No making things up, no embarrassing mistakes.
 
-**European-Built and Hosted**
-Servers in the EU. GDPR compliant by default. No cookies. Aligned with the EU AI Act.
+**European Chatbot, GDPR by Default**
+Servers in the EU. Boei is a GDPR chatbot aligned with the EU AI Act, the European chatbot of choice for privacy-conscious teams. No cookies, no tracking, EU data residency on higher tiers.
 
 **Built for SMBs, Priced for SMBs**
 Starts at $19/month with full AI capabilities. No enterprise overhead, no per-seat pricing, no setup fees.
@@ -277,8 +279,8 @@ Works out of the box with WP Rocket, W3 Total Cache, LiteSpeed Cache, WP Super C
 **Multisite ready**
 Install network-wide or per site. Each site can run its own widget configuration.
 
-**WooCommerce supported**
-Train the AI on your WooCommerce product catalog. Answer product questions, reduce cart abandonment, provide order context.
+**WooCommerce chatbot**
+Boei runs as a WooCommerce chatbot for any store. Train the AI on your WooCommerce product catalog to answer product questions, reduce cart abandonment, and provide order context.
 
 **WPML and Polylang compatible**
 Full multilingual chatbot support with automatic translation in 95+ languages.
@@ -325,7 +327,7 @@ No. Boei answers only from your own content and cites the source page for every 
 
 **Which AI models does Boei use?**
 
-Boei uses the latest models from OpenAI (GPT family) and Anthropic (Claude family) under the hood. You don't need your own API keys. We upgrade to the best-performing models as they become available.
+Boei uses the latest models from OpenAI (GPT and ChatGPT), Anthropic (Claude), Google (Gemini), and Mistral under the hood. Whether you prefer a GPT chatbot, Claude chatbot, Gemini chatbot, or Mistral chatbot experience, you get the same Boei interface, with no API keys to manage. We upgrade to the best-performing models as they become available.
 
 **How fast can the AI chatbot resolve customer questions?**
 
@@ -335,9 +337,9 @@ Resolution rates of up to 80% are common when the AI is trained on a comprehensi
 
 Yes. Boei's [AI actions](https://boei.help/features/automation/?utm_source=wordpress&utm_medium=pluginpage) let the chatbot complete tasks during the conversation: push leads into your CRM, trigger webhooks, send emails, sync product data from Google Sheets, book meetings, and auto-reply on WhatsApp, email, and SMS. No code needed, configure each action visually in the dashboard.
 
-**What about privacy and GDPR compliance?**
+**Is Boei a GDPR-compliant chatbot?**
 
-Boei is cookie-free, GDPR compliant, and built in Europe. We don't store personal data about visitors who don't interact with the widget. EU data residency is available on higher tiers.
+Yes. Boei is a GDPR chatbot, cookie-free, and built in Europe. As a European AI chatbot, we don't store personal data about visitors who don't interact with the widget. EU data residency is available on higher tiers.
 
 **Can I customize the appearance?**
 
@@ -359,9 +361,9 @@ Yes. Boei works perfectly with all major caching plugins. No special configurati
 
 Yes. You can create multiple chatbots and use page-targeting rules to show specific chatbots on specific pages, categories, or post types.
 
-**Does Boei work with WooCommerce?**
+**Does Boei work as a WordPress chatbot for WooCommerce?**
 
-Absolutely. Many WooCommerce stores use Boei's AI chatbot to answer product questions, reduce cart abandonment, and provide order support 24/7. The AI trains on your product catalog automatically.
+Absolutely. Boei is a WordPress chatbot that works on any site, and many WooCommerce stores use Boei as their WooCommerce chatbot to answer product questions, reduce cart abandonment, and provide order support 24/7. The AI trains on your WordPress pages, blog posts, and WooCommerce product catalog automatically.
 
 **Is Boei multilingual?**
 
@@ -396,6 +398,13 @@ All conversations and leads are managed in the [Boei dashboard](https://app.boei
 ---
 
 ## Changelog
+
+**1.9.1**
+- 2026-06-08
+- Rewrote intro to match the boei.help "AI receptionist" tone, sized for small business
+- Updated tags for WordPress.org search (added wordpress chatbot, gdpr chatbot)
+- Expanded AI models FAQ to cover Claude, Gemini, and Mistral
+- Bumped tested up to 7.0
 
 **1.9.0**
 - 2026-05-08
