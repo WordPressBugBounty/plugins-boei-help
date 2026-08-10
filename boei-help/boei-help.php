@@ -1,11 +1,11 @@
 <?php
 /*
- * Plugin Name: Boei – AI Chatbot, Live Chat & 50+ Channels for WordPress
- * Version: 1.9.1
- * Plugin URI: https://boei.help/ai-chatbot/wordpress/?utm_source=wordpress&utm_medium=wp_plugins
+ * Plugin Name: Boei – AI Chatbot, Live Chat & 50+ Channels
+ * Version: 1.9.3
+ * Plugin URI: https://boei.help/ai-chatbot/wordpress/?utm_source=wp_plugin&utm_medium=plugin_admin&utm_campaign=plugin_header
  * Description: Capture every lead. Reply instantly. Close more deals. AI chatbot, 50+ contact channels, single inbox, and lead tracking—all in one plugin.
  * Author: Boei
- * Author URI: https://www.boei.help/?utm_source=wordpress&utm_medium=wp_plugins
+ * Author URI: https://www.boei.help/?utm_source=wp_plugin&utm_medium=plugin_admin&utm_campaign=author_header
  * Tested up to: 7.0
  * Requires at least: 5.0
  * License: GPL v2 or later
@@ -23,15 +23,26 @@ if (!defined('ABSPATH')) {
 }
 
 /**
- * Load plugin text domain for translations
+ * Return allowed HTML tag list for inline SVG icons rendered in the admin UI.
+ *
+ * Used with wp_kses() so the plugin can safely echo static SVG markup while
+ * still passing the WP.org Plugin Check output-escaping rules.
  */
-function boei_load_textdomain()
+function boei_allowed_svg_tags()
 {
-    $plugin_rel_path = dirname(plugin_basename(__FILE__)) . '/languages/';
-    load_plugin_textdomain('boei-help', false, $plugin_rel_path);
+    return array(
+        'svg' => array(
+            'width' => true, 'height' => true, 'viewbox' => true, 'fill' => true,
+            'xmlns' => true, 'stroke' => true, 'stroke-width' => true,
+        ),
+        'path' => array(
+            'd' => true, 'fill' => true, 'stroke' => true,
+            'stroke-linecap' => true, 'stroke-linejoin' => true, 'stroke-width' => true,
+        ),
+        'circle' => array('cx' => true, 'cy' => true, 'r' => true, 'fill' => true),
+        'g' => array('fill' => true, 'stroke' => true),
+    );
 }
-
-add_action('init', 'boei_load_textdomain');
 
 /**
  * Verify widget key with Boei API
@@ -76,7 +87,7 @@ function boei_ajax_verify_key()
         wp_send_json_error(array('message' => __('Unauthorized', 'boei-help')));
     }
 
-    $key = isset($_POST['key']) ? sanitize_text_field($_POST['key']) : '';
+    $key = isset($_POST['key']) ? sanitize_text_field(wp_unslash($_POST['key'])) : '';
 
     if (empty($key)) {
         wp_send_json_error(array('message' => __('Please enter a widget key', 'boei-help')));
@@ -224,15 +235,18 @@ function boei_get_key()
  */
 function boei_settings()
 {
-    $safeHomepageURL = esc_url(boei_url_homepage());
-    $safeInstallationURL = esc_url('https://boei.help/docs/installation-wordpress?utm_source=wordpress&utm_medium=wp_plugins');
-    $safeRoadmapURL = esc_url('https://feedback.boei.help?utm_source=wordpress&utm_medium=wp_plugins');
+    // URLs are escaped at each echo point below (esc_url()) rather than
+    // pre-escaped here, so the WP.org Plugin Check output-escaping rule
+    // detects escaping at the actual output boundary.
+    $homepageURL = boei_url_homepage();
+    $installationURL = 'https://boei.help/docs/installation-wordpress?utm_source=wp_plugin&utm_medium=plugin_admin&utm_campaign=onboarding_docs';
+    $roadmapURL = 'https://feedback.boei.help?utm_source=wp_plugin&utm_medium=plugin_admin&utm_campaign=footer_roadmap';
 
     $current_user = wp_get_current_user();
     $boei_register_email = $current_user->user_email;
-    $urlparts = parse_url(home_url());
+    $urlparts = wp_parse_url(home_url());
     $boei_register_domain = !empty($urlparts['host']) ? $urlparts['host'] : '';
-    $safeRegisterURL = esc_url('https://app.boei.help/register?utm_source=wordpress&utm_medium=wp_plugins&email=' . urlencode($boei_register_email) . '&domain=' . urlencode($boei_register_domain));
+    $registerURL = 'https://app.boei.help/register?utm_source=wp_plugin&utm_medium=plugin_admin&utm_campaign=onboarding_register&email=' . urlencode($boei_register_email) . '&domain=' . urlencode($boei_register_domain);
 
     $has_key = !empty(boei_get_key());
 
@@ -262,7 +276,7 @@ function boei_settings()
 
             var formData = new FormData();
             formData.append('action', 'boei_verify_key');
-            formData.append('nonce', '<?php echo wp_create_nonce('boei_verify_key'); ?>');
+            formData.append('nonce', '<?php echo esc_attr(wp_create_nonce('boei_verify_key')); ?>');
             formData.append('key', key);
 
             fetch(ajaxurl, {
@@ -335,9 +349,9 @@ function boei_settings()
         );
 
         foreach ($cards as $card) {
-            echo '<a href="' . esc_url($card['url'] . '?utm_source=wordpress&utm_medium=wp_plugins') . '" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">';
+            echo '<a href="' . esc_url($card['url'] . '?utm_source=wp_plugin&utm_medium=plugin_admin&utm_campaign=dashboard_cards') . '" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">';
             echo '<span class="boei-card" style="display: block; background: #fff; border: 1px solid #c3c4c7; border-radius: 4px; padding: 20px; text-align: center; transition: border-color 0.2s; box-shadow: 0 1px 1px rgba(0,0,0,.04);">';
-            echo '<span style="display: block; margin-bottom: 8px;">' . $card['icon'] . '</span>';
+            echo '<span style="display: block; margin-bottom: 8px;">' . wp_kses($card['icon'], boei_allowed_svg_tags()) . '</span>';
             echo '<span style="display: block; font-weight: 600; color: #1d2327; font-size: 14px;">' . esc_html($card['title']) . '</span>';
             echo '<span style="display: block; font-size: 12px; color: #646970; margin-top: 4px;">' . esc_html($card['desc']) . '</span>';
             echo '</span>';
@@ -413,7 +427,7 @@ function boei_settings()
 
         foreach ($features as $feature) {
             echo '<div style="display: flex; align-items: center; gap: 12px;">';
-            echo '<div style="background: rgba(255,255,255,0.2); border-radius: 50%; width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">' . $feature['icon'] . '</div>';
+            echo '<div style="background: rgba(255,255,255,0.2); border-radius: 50%; width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">' . wp_kses($feature['icon'], boei_allowed_svg_tags()) . '</div>';
             echo '<span style="font-size: 14px;">' . esc_html($feature['text']) . '</span>';
             echo '</div>';
         }
@@ -436,7 +450,7 @@ function boei_settings()
         echo '<div style="flex: 1;">';
         echo '<div style="font-weight: 600; margin-bottom: 4px;">' . esc_html__('Create your free Boei account', 'boei-help') . '</div>';
         echo '<div style="color: #646970; font-size: 13px; margin-bottom: 12px;">' . esc_html__('Set up your widget and AI chatbot in minutes', 'boei-help') . '</div>';
-        echo '<a href="' . $safeRegisterURL . '" class="button button-primary" target="_blank" rel="noopener noreferrer" style="background: #713eec; border-color: #713eec;">' . esc_html__('Get started free', 'boei-help') . '</a>';
+        echo '<a href="' . esc_url($registerURL) . '" class="button button-primary" target="_blank" rel="noopener noreferrer" style="background: #713eec; border-color: #713eec;">' . esc_html__('Get started free', 'boei-help') . '</a>';
         echo '</div>';
         echo '</div>';
 
@@ -445,8 +459,14 @@ function boei_settings()
         echo '<div style="background: #713eec; color: #fff; width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 600; flex-shrink: 0;">2</div>';
         echo '<div style="flex: 1;">';
         echo '<div style="font-weight: 600; margin-bottom: 4px;">' . esc_html__('Connect your widget', 'boei-help') . '</div>';
-        /* translators: %s: link to Boei dashboard */
-        echo '<div style="color: #646970; font-size: 13px; margin-bottom: 12px;">' . sprintf(__('Paste your widget key from the %s', 'boei-help'), '<a href="' . $safeInstallationURL . '" target="_blank" rel="noopener noreferrer">' . esc_html__('Boei dashboard', 'boei-help') . '</a>') . '</div>';
+        echo '<div style="color: #646970; font-size: 13px; margin-bottom: 12px;">' . wp_kses(
+            sprintf(
+                /* translators: %s: link to Boei dashboard */
+                __('Paste your widget key from the %s', 'boei-help'),
+                '<a href="' . esc_url($installationURL) . '" target="_blank" rel="noopener noreferrer">' . esc_html__('Boei dashboard', 'boei-help') . '</a>'
+            ),
+            array('a' => array('href' => true, 'target' => true, 'rel' => true))
+        ) . '</div>';
         echo '<form action="options.php" method="POST">';
         settings_fields('boei_key');
         do_settings_sections('boei_key');
@@ -467,8 +487,8 @@ function boei_settings()
 
     // Footer links (shown for both states)
     echo '<div style="display: flex; gap: 20px; flex-wrap: wrap; color: #646970; font-size: 13px; margin-top: 20px;">';
-    echo '<a href="' . $safeHomepageURL . '" target="_blank" rel="noopener noreferrer">' . esc_html__('Help & Support', 'boei-help') . '</a>';
-    echo '<a href="' . $safeRoadmapURL . '" target="_blank" rel="noopener noreferrer">' . esc_html__('Roadmap', 'boei-help') . '</a>';
+    echo '<a href="' . esc_url($homepageURL) . '" target="_blank" rel="noopener noreferrer">' . esc_html__('Help & Support', 'boei-help') . '</a>';
+    echo '<a href="' . esc_url($roadmapURL) . '" target="_blank" rel="noopener noreferrer">' . esc_html__('Roadmap', 'boei-help') . '</a>';
     echo '</div>';
 
     echo '</div>';
@@ -480,7 +500,7 @@ function boei_settings()
  */
 function boei_url_manage()
 {
-    return 'https://app.boei.help?utm_source=wordpress&utm_medium=wp_plugins';
+    return 'https://app.boei.help?utm_source=wp_plugin&utm_medium=plugin_admin&utm_campaign=settings_page';
 }
 
 /**
@@ -488,7 +508,7 @@ function boei_url_manage()
  */
 function boei_url_homepage()
 {
-    return 'https://www.boei.help/?utm_source=wordpress&utm_medium=wp_plugins';
+    return 'https://www.boei.help/?utm_source=wp_plugin&utm_medium=plugin_admin&utm_campaign=footer_support';
 }
 
 /**

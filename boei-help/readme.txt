@@ -1,36 +1,36 @@
-=== Boei – AI Chatbot, Live Chat & 50+ Channels for WordPress ===
+=== Boei – AI Chatbot, Live Chat & 50+ Channels ===
 
 Contributors: boeihelp
-Donate link: https://www.boei.help/?utm_source=wordpress&utm_medium=pluginpage
-Tags: ai chatbot, chatbot, live chat, wordpress chatbot, gdpr chatbot
+Donate link: https://www.boei.help/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme
+Tags: ai chatbot, chatbot, live chat, contact form, lead capture
 Requires at least: 5.0
 Tested up to: 7.0
-Stable tag: 1.9.1
+Stable tag: 1.9.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-European AI chatbot for WordPress. Replies in 95+ languages, captures leads, hands off to your team. GDPR chatbot, shared inbox included.
+European AI chatbot for WordPress. 95+ languages, captures leads, hands off to your team. GDPR-safe, shared inbox. Free 7-day trial, no card.
 
 ## Description
 
-[Website](https://boei.help/ai-chatbot/wordpress/?utm_source=wordpress&utm_medium=pluginpage) | [Showcase](https://boei.help/showcase/?utm_source=wordpress&utm_medium=pluginpage) | [Docs](https://boei.help/help?utm_source=wordpress&utm_medium=pluginpage) | [Support](https://boei.help/contact/?utm_source=wordpress&utm_medium=pluginpage)
+[Website](https://boei.help/ai-chatbot/wordpress/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme) | [Showcase](https://boei.help/showcase/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme) | [Docs](https://boei.help/help?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme) | [Support](https://boei.help/contact/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme)
 
 > **The AI receptionist for your WordPress site.** Boei replies to visitor questions in 95+ languages, captures leads while you sleep, and hands the conversation to your team only when it matters. One plugin, one shared inbox.
 
+**⭐ 4.9 stars from 159+ verified reviews. Trusted by 17,000+ businesses across 60+ countries. 7-day free trial, no credit card required.**
+
 ## The WordPress chatbot built for small business
 
-Boei is a [WordPress chatbot](https://boei.help/ai-chatbot/wordpress/?utm_source=wordpress&utm_medium=pluginpage) for small businesses and agencies. It answers customer questions on your site, asks the right follow-up questions to qualify leads, books meetings, and steps aside the moment a real person is needed. Set up in 5 minutes, no prompt engineering, no API keys.
+Boei is a [WordPress chatbot](https://boei.help/ai-chatbot/wordpress/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme) for small businesses and agencies. It answers customer questions on your site, asks the right follow-up questions to qualify leads, books meetings, and steps aside the moment a real person is needed. Set up in 5 minutes, no prompt engineering, no API keys.
 
-Pair it with a [shared inbox](https://boei.help/features/inbox/?utm_source=wordpress&utm_medium=pluginpage), email, SMS, and [50+ other contact channels](https://boei.help/channels/?utm_source=wordpress&utm_medium=pluginpage), plus a built-in [CRM](https://boei.help/crm/?utm_source=wordpress&utm_medium=pluginpage), so every conversation lives in one place. EU-hosted, GDPR-compliant, no cookies, no visitor tracking. Boei is the WordPress chatbot that reduces support tickets and qualifies leads on autopilot.
-
-Trusted by 17,000+ businesses across 60+ countries. 4.9 stars, 159+ verified reviews.
+Pair it with a [shared inbox](https://boei.help/features/inbox/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme), email, SMS, and [50+ other contact channels](https://boei.help/channels/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme), plus a built-in [CRM](https://boei.help/crm/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme), so every conversation lives in one place. EU-hosted, GDPR-compliant, no cookies, no visitor tracking. Boei is the WordPress chatbot that reduces support tickets and qualifies leads on autopilot.
 
 ## What's Inside
 
 - 🤖 **AI Chatbot** that trains on your WordPress content automatically. Captures leads, books appointments, answers FAQs, qualifies prospects 24/7
 - ⚡ **AI Actions** that update your CRM, send emails, trigger webhooks, and complete tasks mid-conversation
 - 💬 **Live Chat** so a human can step in with full conversation context whenever needed
-- 📱 **50+ Contact Channels** including [Signal](https://boei.help/signal/?utm_source=wordpress&utm_medium=pluginpage), [Telegram](https://boei.help/telegram/wordpress/?utm_source=wordpress&utm_medium=pluginpage), [SMS](https://boei.help/sms/?utm_source=wordpress&utm_medium=pluginpage), email, phone, contact forms, callback requests, and many more
+- 📱 **50+ Contact Channels** including [Signal](https://boei.help/signal/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme), [Telegram](https://boei.help/telegram/wordpress/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme), [SMS](https://boei.help/sms/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme), email, phone, contact forms, callback requests, and many more
 - 📥 **Shared Inbox** with every conversation, every channel, in one dashboard
 - 📊 **CRM with Deal Pipeline** to convert chats into trackable leads with drag-and-drop tracking
 - ❓ **FAQ Widget** so visitors find answers before they ask
@@ -48,7 +48,7 @@ The AI does not just answer, it asks. It collects names, emails, and phone numbe
 ### 3. Hands off to humans when it matters
 When the AI is unsure, when a visitor asks for a person, or when a high-value lead arrives, Boei escalates to your live chat team with one click. Every channel and every visitor lands in one shared inbox.
 
-[Learn how to create your first AI chatbot →](https://boei.help/ai-chatbot/wordpress/?utm_source=wordpress&utm_medium=pluginpage)
+[Learn how to create your first AI chatbot →](https://boei.help/ai-chatbot/wordpress/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme)
 
 ## Features That Drive Sales
 
@@ -59,7 +59,7 @@ When the AI is unsure, when a visitor asks for a person, or when a high-value le
 - **Books appointments**: integrates with Calendly, Cal.com, Google Calendar, and more
 - **No hallucinations**: answers only from your content, cites sources, links back to original pages
 - **Multilingual**: 95+ languages with automatic detection
-- **Latest models**: choose a GPT chatbot, Claude chatbot, Gemini chatbot, or Mistral chatbot experience, no API keys required
+- **Latest models**: choose an OpenAI chatbot, GPT chatbot, Claude chatbot, Gemini chatbot, or Mistral chatbot experience, no API keys required
 - **Resolution rates up to 80%** when trained on the right content
 
 ### 💬 Live Chat & 50+ Channels
@@ -67,16 +67,16 @@ When the AI is unsure, when a visitor asks for a person, or when a high-value le
 Visitors choose how they want to talk. Boei supports:
 
 - **Live chat** for real-time human conversations from your shared inbox
-- **Secure messaging**: [Signal](https://boei.help/signal/?utm_source=wordpress&utm_medium=pluginpage), [Telegram](https://boei.help/telegram/wordpress/?utm_source=wordpress&utm_medium=pluginpage), encrypted chat options
-- **SMS and traditional**: [direct text messaging](https://boei.help/sms/?utm_source=wordpress&utm_medium=pluginpage), [click-to-call](https://boei.help/call-me-back/?utm_source=wordpress&utm_medium=pluginpage)
-- **Social platforms**: TikTok, Line, [Viber](https://boei.help/viber/?utm_source=wordpress&utm_medium=pluginpage), [Discord](https://boei.help/discord/?utm_source=wordpress&utm_medium=pluginpage)
-- **Business messaging**: [WeChat](https://boei.help/wechat/?utm_source=wordpress&utm_medium=pluginpage), professional communication tools
-- **Forms**: [contact forms](https://boei.help/contact-form/?utm_source=wordpress&utm_medium=pluginpage), [callback requests](https://boei.help/call-me-back/?utm_source=wordpress&utm_medium=pluginpage), [newsletter signup](https://boei.help/newsletter-signup/?utm_source=wordpress&utm_medium=pluginpage), [feedback forms](https://boei.help/feedback-form/?utm_source=wordpress&utm_medium=pluginpage)
+- **Secure messaging**: [Signal](https://boei.help/signal/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme), [Telegram](https://boei.help/telegram/wordpress/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme), encrypted chat options
+- **SMS and traditional**: [direct text messaging](https://boei.help/sms/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme), [click-to-call](https://boei.help/call-me-back/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme)
+- **Social platforms**: TikTok, Line, [Viber](https://boei.help/viber/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme), [Discord](https://boei.help/discord/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme)
+- **Business messaging**: [WeChat](https://boei.help/wechat/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme), professional communication tools
+- **Forms**: [contact forms](https://boei.help/contact-form/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme), [callback requests](https://boei.help/call-me-back/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme), [newsletter signup](https://boei.help/newsletter-signup/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme), [feedback forms](https://boei.help/feedback-form/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme)
 - **50+ total channels** supported
 
 ### ⚡ AI Actions: Your Chatbot Takes Action, Not Just Answers
 
-Most chatbots end the conversation with a button. Boei's [AI actions](https://boei.help/features/automation/?utm_source=wordpress&utm_medium=pluginpage) let the AI complete the task:
+Most chatbots end the conversation with a button. Boei's [AI actions](https://boei.help/features/automation/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme) let the AI complete the task:
 
 - **Send leads to your CRM** the moment they're captured (HubSpot, Pipedrive, Salesforce, custom)
 - **Auto-reply on email, WhatsApp, and SMS** with the same trained AI
@@ -109,11 +109,11 @@ Turn conversations into customers with a built-in CRM:
 
 Traditional contact forms convert poorly. Boei's smart forms are different:
 
-- **Contact forms**: [general inquiries](https://boei.help/contact-form/?utm_source=wordpress&utm_medium=pluginpage), intelligent field validation
-- **Quote request forms**: [service businesses](https://boei.help/features/contact-forms/?utm_source=wordpress&utm_medium=pluginpage), custom pricing requests
-- **Callback forms**: [phone-based sales](https://boei.help/call-me-back/?utm_source=wordpress&utm_medium=pluginpage), appointment scheduling
-- **Newsletter signup**: [email marketing integration](https://boei.help/newsletter-signup/?utm_source=wordpress&utm_medium=pluginpage), list building
-- **Feedback forms**: [customer insights](https://boei.help/feedback-form/?utm_source=wordpress&utm_medium=pluginpage), satisfaction surveys
+- **Contact forms**: [general inquiries](https://boei.help/contact-form/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme), intelligent field validation
+- **Quote request forms**: [service businesses](https://boei.help/features/contact-forms/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme), custom pricing requests
+- **Callback forms**: [phone-based sales](https://boei.help/call-me-back/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme), appointment scheduling
+- **Newsletter signup**: [email marketing integration](https://boei.help/newsletter-signup/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme), list building
+- **Feedback forms**: [customer insights](https://boei.help/feedback-form/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme), satisfaction surveys
 - **Custom fields**: capture exactly the information you need to qualify a lead
 
 ## Why Businesses Pick Boei Over Other Chatbots
@@ -135,7 +135,7 @@ Higher tiers remove Boei branding, support custom domains, and let you manage mu
 
 ## Trusted by 17,000+ Businesses Worldwide
 
-**Rated 4.9/5 stars** based on [159 verified reviews](https://boei.help/showcase/?utm_source=wordpress&utm_medium=pluginpage)
+**Rated 4.9/5 stars** based on [159 verified reviews](https://boei.help/showcase/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme)
 
 - 17,000+ websites running Boei
 - 118M+ visitors served
@@ -146,18 +146,18 @@ Higher tiers remove Boei branding, support custom domains, and let you manage mu
 
 Boei adapts to your business model, vocabulary, and customer journey. Dedicated guides for the most common verticals:
 
-- 🛒 [Ecommerce](https://boei.help/for/ecommerce/?utm_source=wordpress&utm_medium=pluginpage) — recover carts, answer product questions, recommend SKUs
-- 🏠 [Real Estate](https://boei.help/for/real-estate/?utm_source=wordpress&utm_medium=pluginpage) — qualify buyers, book viewings, route hot leads
-- 💼 [SaaS](https://boei.help/for/saas/?utm_source=wordpress&utm_medium=pluginpage) — convert trials, deflect support, onboard users
-- 🍽️ [Restaurants](https://boei.help/for/restaurants/?utm_source=wordpress&utm_medium=pluginpage) — handle reservations, menu questions, opening hours
-- 🚗 [Automotive](https://boei.help/for/automotive/?utm_source=wordpress&utm_medium=pluginpage) — book test drives, qualify trade-ins, capture finance leads
-- 💰 [Finance](https://boei.help/for/finance/?utm_source=wordpress&utm_medium=pluginpage) — qualify prospects, schedule consultations, route by need
-- 🏨 [Hotels](https://boei.help/for/hotels/?utm_source=wordpress&utm_medium=pluginpage) — answer booking questions, capture reservations
-- 🎓 [Education](https://boei.help/for/education/?utm_source=wordpress&utm_medium=pluginpage) — guide prospective students, schedule tours, answer admissions
-- 👥 [Recruitment](https://boei.help/for/recruitment/?utm_source=wordpress&utm_medium=pluginpage) — pre-qualify candidates, schedule interviews, route by role
-- 🧘 [Wellness & Coaching](https://boei.help/for/wellness/?utm_source=wordpress&utm_medium=pluginpage) — book sessions, capture intake, send intro packets
-- 🏢 [Agencies](https://boei.help/for/agencies/?utm_source=wordpress&utm_medium=pluginpage) — white-label, manage multiple client sites from one dashboard
-- 🚀 [Small Business & Startups](https://boei.help/for/small-business/?utm_source=wordpress&utm_medium=pluginpage) — affordable plans, no enterprise overhead
+- 🛒 [Ecommerce](https://boei.help/for/ecommerce/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme) — recover carts, answer product questions, recommend SKUs
+- 🏠 [Real Estate](https://boei.help/for/real-estate/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme) — qualify buyers, book viewings, route hot leads
+- 💼 [SaaS](https://boei.help/for/saas/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme) — convert trials, deflect support, onboard users
+- 🍽️ [Restaurants](https://boei.help/for/restaurants/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme) — handle reservations, menu questions, opening hours
+- 🚗 [Automotive](https://boei.help/for/automotive/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme) — book test drives, qualify trade-ins, capture finance leads
+- 💰 [Finance](https://boei.help/for/finance/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme) — qualify prospects, schedule consultations, route by need
+- 🏨 [Hotels](https://boei.help/for/hotels/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme) — answer booking questions, capture reservations
+- 🎓 [Education](https://boei.help/for/education/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme) — guide prospective students, schedule tours, answer admissions
+- 👥 [Recruitment](https://boei.help/for/recruitment/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme) — pre-qualify candidates, schedule interviews, route by role
+- 🧘 [Wellness & Coaching](https://boei.help/for/wellness/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme) — book sessions, capture intake, send intro packets
+- 🏢 [Agencies](https://boei.help/for/agencies/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme) — white-label, manage multiple client sites from one dashboard
+- 🚀 [Small Business & Startups](https://boei.help/for/small-business/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme) — affordable plans, no enterprise overhead
 
 ## Case Study: Longevity Medical Institute Gets 150+ Daily Leads with Boei
 
@@ -172,7 +172,7 @@ A regenerative medicine clinic with locations in Mexico and Texas replaced 24-ho
 > "It's all upside, Boei dramatically improves responsiveness, patient conversion, and operational efficiency, and the ROI is easily justified."
 > — **Dr. Kirk Sanford, CEO & Founder, Longevity Medical Institute**
 
-[Read the full case study →](https://boei.help/cases/longevity-medical-institute/?utm_source=wordpress&utm_medium=pluginpage)
+[Read the full case study →](https://boei.help/cases/longevity-medical-institute/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme)
 
 **Real Results from Real Customers:**
 
@@ -191,7 +191,7 @@ A regenerative medicine clinic with locations in Mexico and Texas replaced 24-ho
 "**Boei is chatting with customers on steroids.** It resolves a huge problem, how to integrate all the channels people use to communicate in one place. Brilliant. The support is great and Ruben (the developer) is listening to his clients. Highly recommend."
 — **Bobby K**
 
-**See Boei in Action:** Experience the difference on [our website](https://www.boei.help/?utm_source=wordpress&utm_medium=pluginpage) and [customer showcase](https://boei.help/showcase/?utm_source=wordpress&utm_medium=pluginpage).
+**See Boei in Action:** Experience the difference on [our website](https://www.boei.help/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme) and [customer showcase](https://boei.help/showcase/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme).
 
 ## Pricing
 
@@ -244,7 +244,7 @@ Add-ons: extra domains ($14/month), extra chatbots ($9/month), extra live agents
 
 1. **Install**: search for 'Boei' in your WordPress admin and click install
 2. **Activate**: enable the plugin with one click
-3. **Configure**: create your account at [Boei.help](https://www.boei.help/?utm_source=wordpress&utm_medium=plugin)
+3. **Configure**: create your account at [Boei.help](https://www.boei.help/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme)
 4. **Customize**: set up your AI chatbot, training content, and channels
 5. **Capture leads**: start converting visitors immediately
 
@@ -252,7 +252,7 @@ Add-ons: extra domains ($14/month), extra chatbots ($9/month), extra live agents
 
 1. Download the plugin from WordPress.org
 2. Upload via 'Plugins > Add New > Upload' in WordPress dashboard
-3. Activate and create your account at [Boei.help](https://www.boei.help/?utm_source=wordpress&utm_medium=plugin)
+3. Activate and create your account at [Boei.help](https://www.boei.help/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme)
 4. Configure your AI chatbot and channels
 5. Watch conversions increase
 
@@ -260,11 +260,11 @@ Add-ons: extra domains ($14/month), extra chatbots ($9/month), extra live agents
 
 Every day you wait is another day of missed opportunities. Join 17,000+ businesses already capturing more leads with Boei.
 
-**[Start Your Free Trial →](https://www.boei.help/?utm_source=wordpress&utm_medium=pluginpage)**
+**[Start Your Free Trial →](https://www.boei.help/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme)**
 
-**[View Live Demo →](https://boei.help/showcase/?utm_source=wordpress&utm_medium=pluginpage)**
+**[View Live Demo →](https://boei.help/showcase/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme)**
 
-**[Learn How to Create Your First AI Chatbot →](https://boei.help/ai-chatbot/wordpress/?utm_source=wordpress&utm_medium=pluginpage)**
+**[Learn How to Create Your First AI Chatbot →](https://boei.help/ai-chatbot/wordpress/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme)**
 
 ---
 
@@ -309,6 +309,10 @@ This integration is essential for the plugin's core functionality. The external 
 
 ## Frequently Asked Questions
 
+**How do I add a WordPress chatbot to my site?**
+
+Install the Boei WordPress chatbot plugin from the WordPress.org directory, activate it, and connect it to your Boei account. The WordPress chatbot appears on every page immediately, trained on your own content, ready to answer visitor questions in 95+ languages. No coding, no shortcodes, no theme edits needed. Boei is the WordPress chatbot most small businesses reach for when they want an AI receptionist without an API key or a developer.
+
 **Is Boei a free plugin?**
 
 The plugin itself is free. Boei's AI chatbot service starts at $19/month (billed annually) with a 7-day free trial, no credit card required.
@@ -327,7 +331,7 @@ No. Boei answers only from your own content and cites the source page for every 
 
 **Which AI models does Boei use?**
 
-Boei uses the latest models from OpenAI (GPT and ChatGPT), Anthropic (Claude), Google (Gemini), and Mistral under the hood. Whether you prefer a GPT chatbot, Claude chatbot, Gemini chatbot, or Mistral chatbot experience, you get the same Boei interface, with no API keys to manage. We upgrade to the best-performing models as they become available.
+Boei uses the latest models from OpenAI (GPT and ChatGPT), Anthropic (Claude), Google (Gemini), and Mistral under the hood. Whether you prefer an OpenAI chatbot, GPT chatbot, Claude chatbot, Gemini chatbot, or Mistral chatbot experience, you get the same Boei interface, with no API keys to manage. We upgrade to the best-performing models as they become available.
 
 **How fast can the AI chatbot resolve customer questions?**
 
@@ -335,7 +339,7 @@ Resolution rates of up to 80% are common when the AI is trained on a comprehensi
 
 **Can the AI chatbot do more than just answer? (AI Actions)**
 
-Yes. Boei's [AI actions](https://boei.help/features/automation/?utm_source=wordpress&utm_medium=pluginpage) let the chatbot complete tasks during the conversation: push leads into your CRM, trigger webhooks, send emails, sync product data from Google Sheets, book meetings, and auto-reply on WhatsApp, email, and SMS. No code needed, configure each action visually in the dashboard.
+Yes. Boei's [AI actions](https://boei.help/features/automation/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme) let the chatbot complete tasks during the conversation: push leads into your CRM, trigger webhooks, send emails, sync product data from Google Sheets, book meetings, and auto-reply on WhatsApp, email, and SMS. No code needed, configure each action visually in the dashboard.
 
 **Is Boei a GDPR-compliant chatbot?**
 
@@ -347,7 +351,7 @@ Absolutely. Boei offers extensive customization including colors, positioning, c
 
 **What communication channels are supported?**
 
-Boei supports 50+ channels including [live chat](https://boei.help/live-chat/wordpress/?utm_source=wordpress&utm_medium=pluginpage), [secure messaging](https://boei.help/signal/?utm_source=wordpress&utm_medium=pluginpage) (Signal, Telegram), [SMS](https://boei.help/sms/?utm_source=wordpress&utm_medium=pluginpage), social platforms (TikTok, Line, Viber), [contact forms](https://boei.help/contact-form/?utm_source=wordpress&utm_medium=pluginpage), and many more professional communication tools.
+Boei supports 50+ channels including [live chat](https://boei.help/live-chat/wordpress/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme), [secure messaging](https://boei.help/signal/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme) (Signal, Telegram), [SMS](https://boei.help/sms/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme), social platforms (TikTok, Line, Viber), [contact forms](https://boei.help/contact-form/?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme), and many more professional communication tools.
 
 **Does Boei slow down my WordPress site?**
 
@@ -363,7 +367,7 @@ Yes. You can create multiple chatbots and use page-targeting rules to show speci
 
 **Does Boei work as a WordPress chatbot for WooCommerce?**
 
-Absolutely. Boei is a WordPress chatbot that works on any site, and many WooCommerce stores use Boei as their WooCommerce chatbot to answer product questions, reduce cart abandonment, and provide order support 24/7. The AI trains on your WordPress pages, blog posts, and WooCommerce product catalog automatically.
+Absolutely. Boei is a WordPress chatbot that works on any site, and many WooCommerce stores use Boei as their WooCommerce chatbot to answer product questions, reduce cart abandonment, and provide order support 24/7. As a WooCommerce chatbot, Boei trains on your WordPress pages, blog posts, and WooCommerce product catalog automatically, so shoppers get the same answers your team would give.
 
 **Is Boei multilingual?**
 
@@ -379,25 +383,39 @@ Yes. Install the plugin network-wide or on individual sites. Each site can have 
 
 **Where do I manage my inbox and leads?**
 
-All conversations and leads are managed in the [Boei dashboard](https://app.boei.help?utm_source=wordpress&utm_medium=pluginpage). The WordPress plugin connects your site to your Boei account, all the magic happens in the Boei app.
+All conversations and leads are managed in the [Boei dashboard](https://app.boei.help?utm_source=wp_org&utm_medium=plugin_listing&utm_campaign=readme). The WordPress plugin connects your site to your Boei account, all the magic happens in the Boei app.
 
 ---
 
 ## Screenshots
 
-1. AI chatbot conversation in action with personalized responses
-2. Multi-channel contact menu with messaging options
-3. Smart contact form with custom fields
-4. Real-time analytics showing lead generation performance
-5. Detailed lead analytics by channel and page performance
-6. Multi-channel widget builder with live preview
-7. AI agent customization and training interface
-8. Agency white-label branding and client management dashboard
+1. AI chatbot answering a real product question on a customer site
+2. AI chatbot handling a longer conversation on a live customer site
+3. Widget builder with live preview and multiple channels
+4. Unified inbox with AI-to-human handoff and linked deals
+5. Trains automatically on your WordPress pages and sitemaps
+6. Turn conversations into a visual deal pipeline
+7. 50+ channels: email, WhatsApp, SMS, Telegram and more
+8. White-label branding and client management for agencies
 
 
 ---
 
 ## Changelog
+
+**1.9.3**
+- 2026-08-10
+- New wp.org banner and 8 refreshed screenshots reflecting the AI-chatbot-first positioning
+- Rewrote screenshot captions to match the new order (chatbot, inbox, training, deals, channels, agency)
+- Renamed plugin to "Boei - AI Chatbot, Live Chat & 50+ Channels" for better wp.org search matching
+- Hardened admin settings page against Plugin Checker findings (output escaping, input sanitization, SVG allowlist)
+- Trimmed tags to the wp.org 5-tag limit
+
+**1.9.2**
+- 2026-08-06
+- Added OpenAI chatbot phrasing to model descriptions so users searching for an OpenAI-backed chatbot can find Boei
+- New FAQ answering "How do I add a WordPress chatbot to my site?"
+- Expanded WooCommerce chatbot FAQ with more detail on product-catalog training
 
 **1.9.1**
 - 2026-06-08
